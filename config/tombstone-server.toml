@@ -1,0 +1,12 @@
+[enchantments]
+	enable_enchantment_soulbound = false
+[player_death]
+	xp_loss = 0
+[decorative_grave]
+	tablet_max_use = 10
+	tablet_cooldown = 60
+	cooldown_reset_perk = 20
+#Allows to disable some magic items
+[allowedMagicItems]
+	#Book of Recycling [false/true|default:true]
+	allow_book_of_recycling = false

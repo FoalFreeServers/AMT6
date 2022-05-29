@@ -1,0 +1,16 @@
+[Features]
+	coloredCobblestone = false
+	darkGlass = false
+	smoothGlowstone = false
+	wateringCan = false
+	meshes = false
+	magnet = false
+	nightVisionGoggles = false
+	paxels = false
+	flintGear = false
+	emeraldGear = false
+	rightClickHarvest = true
+["Grid Repair"]
+	enabled = false
+[Tweaks]
+	toolBreaking = false

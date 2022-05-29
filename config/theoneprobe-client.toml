@@ -1,0 +1,13 @@
+boxLeftX = -1
+boxBorderColor = "0"
+boxFillColor = "0"
+boxThickness = 0
+[style]
+	High = "gold"
+	Name = "white"
+	Warning = "yellow"
+	Progress = "white"
+	InfoImportant = "blue"
+	Label = "gray"
+	Error = "red,bold"
+	Obsolete = "gray,strikethrough"

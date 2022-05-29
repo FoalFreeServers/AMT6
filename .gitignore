@@ -1,0 +1,33 @@
+# Copyrighted files
+/libraries/
+/mods/*.jar
+/*.jar
+
+# Uncessary logs & files
+/crash-reports/
+/logs/
+/.mixin.out/
+*.bak
+minecraft.pid
+
+# Region data
+/world/advancements/
+/world/camera_images/
+/world/data/
+/world/datapacks/
+/world/deaths/
+/world/**/data/
+/world/**/entities/
+/world/**/poi/
+/world/**/region/
+/world/dimensions/
+/world/entities/
+/world/playerdata/
+/world/poi/
+/world/region/
+/world/stats/
+/world/icon.png
+/world/level.*
+/world/session.lock
+/world/touchfile
+/world/delete-world.sh

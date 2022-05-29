@@ -1,0 +1,4 @@
+'iceandfire:fire_dragon' : '{id:"atmadditions:dragon_soul",Count:1b,tag:{dropchance:0.1d}}',
+'iceandfire:ice_dragon' : '{id:"atmadditions:dragon_soul",Count:1b,tag:{dropchance:0.2d}}',
+'iceandfire:lightning_dragon' : '{id:"atmadditions:dragon_soul",Count:1b,tag:{dropchance:0.15d}}',
+'iceandfire:cyclops' : '{id:"forbidden_arcanus:spectral_eye_amulet",Count:1b,tag:{dropchance:0.5d,Deactivated:0b}}'

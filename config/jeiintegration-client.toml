@@ -1,0 +1,4 @@
+[tooltip_options]
+	burnTimeTooltipMode = "enabled"
+	nbtTooltipMode = "disabled"
+	foodTooltipMode = "enabled"

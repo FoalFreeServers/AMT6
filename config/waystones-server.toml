@@ -1,0 +1,4 @@
+[server]
+	[server.dimensionalWarp]
+		dimensionalWarpXpCost = 0
+		

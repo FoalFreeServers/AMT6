@@ -1,0 +1,5 @@
+{
+    WorldGen: {
+        EnableYelloriteGeneration: false
+    }
+}

@@ -1,0 +1,5 @@
+[cyclic]
+	[cyclic.enchantment]
+		beheadingEntityMHF = []
+		magnet = false
+		traveler = false

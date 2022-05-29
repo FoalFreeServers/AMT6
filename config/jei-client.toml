@@ -1,0 +1,10 @@
+[advanced]
+	CenterSearch = true
+	MaxColumns = 100
+	CreativeTabSearchMode = "REQUIRE_PREFIX"
+	ColorSearchMode = "REQUIRE_PREFIX"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
+	TooltipSearchMode = "REQUIRE_PREFIX"
+[modname]
+	ModNameFormat = ""
+	

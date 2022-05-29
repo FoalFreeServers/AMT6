@@ -1,0 +1,11 @@
+[packmode]
+	#ATM = 0 SLOP = 1 SKY = 2 MAGIC = 3 EXPERT = 4
+	enable = 0
+[discord]
+	discord = true
+[packversionmaj]
+	major = 1
+[packversionmin]
+	minor = 8
+[packversionminrev]
+	minorrev = 24

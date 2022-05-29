@@ -1,0 +1,95 @@
+[general]
+	"Enable 'q' Button" = false
+	"Ignored Screens" = ["blusunrize.immersiveengineering.client.gui.CraftingTableScreen", "com.tfar.craftingstation.client.CraftingStationScreen", "com.refinedmods.refinedstorage.screen.grid.GridScreen", "appeng.client.gui.implementations.CraftingTermScreen", "appeng.client.gui.implementations.PatternTermScreen", "com.blakebr0.extendedcrafting.client.screen.EliteTableScreen", "com.blakebr0.extendedcrafting.client.screen.EliteAutoTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateTableScreen", "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen", "me.desht.modularrouters.client.gui.filter.GuiFilterScreen", "com.resourcefulbees.resourcefulbees.client.gui.screen.CentrifugeScreen", "com.resourcefulbees.resourcefulbees.client.gui.screen.MechanicalCentrifugeScreen", "com.resourcefulbees.resourcefulbees.client.gui.screen.CentrifugeMultiblockScreen", "com.refinedmods.refinedstorage.screen.FilterScreen", "appeng.client.gui.me.items.CraftingTermScreen", "appeng.client.gui.me.items.PatternTermScreen", "com.YTrollman.CreativeCrafter.gui.CreativeCrafterScreen", "slimeknights.tconstruct.smeltery.client.inventory.HeatingStructureScreen", "slimeknights.tconstruct.smeltery.client.inventory.module.HeatingStructureSideInventoryScreen", "com.YTrollman.CreativeApiary.gui.CreativeApiaryStorageScreen"]
+	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
+	"Use Piston Logic Replacement" = false
+[categories]
+	Oddities = false
+[automation]
+	"Pistons Move Tile Entities" = false
+[building]
+	"Variant Chests" = false
+[management]
+	"Easy Transfering" = false
+	"Inventory Sorting" = false
+	"Right Click Armor" = false
+	[management.inventory_sorting]
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
+	[management.easy_transfering]
+		"Enable Shift Lock" = false
+	[tools.color_runes]
+		"Apply Cost" = 15
+[tweaks]
+	"Automatic Recipe Unlock" = false
+	"Compasses Work Everywhere" = false
+	"Simple Harvest" = false
+	[tweaks.compasses_work_everywhere]
+		"Enable Compass Nerf" = false
+		"Enable Clock Nerf" = false
+		"Enable Nether" = false
+		"Enable End" = false
+	[tweaks.improved_sleeping]
+		"Percent Req" = 0.25
+	[tweaks.utility_recipes]
+		"Bone Meal Utility" = false
+[world]
+	[world.big_stone_clusters]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:jasper", "quark:slate", "quark:basalt"]
+		[world.big_stone_clusters.marble]
+			Enabled = false
+			Rarity = 0
+			"Min Y Level" = 0
+			"Max Y Level" = 0
+			"Horizontal Size" = 0
+			"Vertical Size" = 0
+			"Horizontal Variation" = 0
+			"Vertical Variation" = 0
+			[world.big_stone_clusters.marble.dimensions]
+				Dimensions = []
+			[world.big_stone_clusters.marble.biomes]
+				[world.big_stone_clusters.marble.biomes.types]
+					"Biome Types" = []
+				[world.big_stone_clusters.marble.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+		[world.big_stone_clusters.limestone]
+			Enabled = false
+			Rarity = 0
+			"Min Y Level" = 0
+			"Max Y Level" = 0
+			"Horizontal Size" = 0
+			"Vertical Size" = 0
+			"Horizontal Variation" = 0
+			"Vertical Variation" = 0
+			[world.big_stone_clusters.limestone.dimensions]
+				Dimensions = []
+			[world.big_stone_clusters.limestone.biomes]
+				[world.big_stone_clusters.limestone.biomes.types]
+					"Biome Types" = []
+	[world.new_stone_types]
+		[world.new_stone_types.marble]
+			[world.new_stone_types.marble.dimensions]
+				Dimensions = []
+			[world.new_stone_types.marble.oregen]
+				"Max Height" = 0
+				"Cluster Size" = 0
+				"Cluster Count" = 0
+		[world.new_stone_types.limestone]
+			[world.new_stone_types.limestone.dimensions]
+				Dimensions = []
+			[world.new_stone_types.limestone.oregen]
+				"Max Height" = 0
+				"Cluster Size" = 0
+				"Cluster Count" = 0
+	[world.mega_caves]
+		[world.mega_caves.spawn_settings]
+			#Allowed values: [0,)
+			Rarity = 3200
+[client]
+	[client.greener_grass]
+		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane"]
+		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "minecraft:vine"]
+	[client.improved_tooltips]
+		"Food Tooltips" = false

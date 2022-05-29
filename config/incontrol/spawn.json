@@ -1,0 +1,79 @@
+[
+  {
+    "dimension": "twilightforest:twilightforest",
+    "mob": [
+      "iceandfire:siren",
+      "iceandfire:sea_serpent",
+      "iceandfire:hippocampus"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "allthemodium:the_other",
+    "mob": [
+      "iceandfire:hydra",
+      "iceandfire:dread_scuttler",
+      "iceandfire:dread_beast",
+      "iceandfire:dread_horse",
+      "iceandfire:dread_thrall",
+      "iceandfire:dread_ghoul",
+      "iceandfire:dread_knight"
+    ],
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "twilightforest:twilightforest",
+    "mod": [
+      "ars_nouveau",
+      "mana-and-artifice"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "iceandfire:myrmex_queen",
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "dimension": "allthemodium:mining",
+    "mod": "ars_nouveau",
+    "result": "deny"
+  },
+  {
+    "dimension": "compactmachines:compact_world",
+    "mod": "ars_nouveau",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "mana-and-artifice:demon_imp",
+      "mana-and-artifice:hulking_zombie",
+      "mana-and-artifice:lantern_wraith",
+      "mana-and-artifice:mushroom_soldier",
+      "mana-and-artifice:pixie",
+      "mana-and-artifice:skeleton_assassin",
+      "mana-and-artifice:spellbreaker"
+    ],
+    "mincount": {
+      "amount": 1,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "iceandfire:ghost",
+      "mana-and-artifice:witch_hunter"
+    ],
+    "result": "deny"
+  }
+]

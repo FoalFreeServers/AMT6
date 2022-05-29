@@ -1,0 +1,5 @@
+versionCheck = false
+defaultConfigPath = "defaultconfigs"
+splashscreen = true
+maxThreads = -1
+

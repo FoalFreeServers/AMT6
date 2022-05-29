@@ -1,0 +1,8 @@
+[disable]
+	alkahestryTome = true
+[items]
+	[items.sojournerStaff]
+		torches = ["minecraft:torch"]
+	[items.rodOfLyssa]
+		stealFromPlayers = false
+		flatStealFailurePercentRate = 100
