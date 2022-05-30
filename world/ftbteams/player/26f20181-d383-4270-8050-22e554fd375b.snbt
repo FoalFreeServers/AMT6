@@ -1,0 +1,19 @@
+{
+	id: "26f20181-d383-4270-8050-22e554fd375b"
+	type: "player"
+	player_name: "engrishLINGLING"
+	ranks: {
+		26f20181-d383-4270-8050-22e554fd375b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "engrishLINGLING"
+		"ftbteams:color": "#596EFF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

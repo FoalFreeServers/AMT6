@@ -32,6 +32,7 @@ minecraft.pid
 /world/stats/
 /world/structurize/
 /world/icon.png
+/world/kubejs_persistent_data.nbt
 /world/level.*
 /world/session.lock
 /world/touchfile
