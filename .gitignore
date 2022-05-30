@@ -33,4 +33,3 @@ minecraft.pid
 /world/level.*
 /world/session.lock
 /world/touchfile
-/world/delete-world.sh
