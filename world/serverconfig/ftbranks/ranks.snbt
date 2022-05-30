@@ -4,6 +4,10 @@
 		power: 1
 		condition: "always_active"
 		ftbranks.name_format: "<{name}>"
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 16
+		command.terra.locate.terrain = true
+		command.terra.locate.terrain.terrain = true
 	}
 	vip: {
 		name: "VIP"
@@ -15,5 +19,9 @@
 		power: 1000
 		condition: "op"
 		ftbranks.name_format: "<&2{name}&r>"
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 16
+		command.terra.locate.terrain = true
+		command.terra.locate.terrain.terrain = true
 	}
 }
