@@ -36,7 +36,9 @@ $JAVA -Xmx$RAM \
 
 ~/bin/backup-minecraft-full.sh
 
-
+cd mods/
+ls -lh *.jar > mods.txt
+cd ..
 
 git add .
 git commit -m "Sync from Server."
