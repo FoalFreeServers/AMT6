@@ -100,10 +100,9 @@ total 506M
 -rwxrwxrwx 1 root root  178K Jan 17 09:55 SaveMyStronghold-1.16.4-1.0.jar
 -rwxrwxrwx 1 root root   17M Jan 17 09:58 ScalableCatsForce-2.13.5-build-2-with-library.jar
 -rwxrwxrwx 1 root root  6.3M Jan 17 09:57 Scorge-3.1.3.jar
--rwxrwxrwx 1 root root   13K May 29 16:59 ServerRestarter-1.16.5-12796fb.jar
+-rwxrwxrwx 1 root root   14K May 29 19:54 ServerRestarter-1.16.5-9a5d99e.jar
 -rwxrwxrwx 1 root root   86K Jan 17 09:59 Shrink-1.16.5-1.1.6.jar
 -rwxrwxrwx 1 root root  119K Jan 17 09:55 SoL-Carrot-1.16.5-1.10.1.jar
--rwxrwxrwx 1 root root  189K Jan 17 09:56 SolarFluxReborn-1.16.5-16.3.9.jar
 -rwxrwxrwx 1 root root   60K Jan 17 09:53 SpawnerFix-1.16.2-1.0.0.2.jar
 -rwxrwxrwx 1 root root  562K May  3 23:01 StorageDrawers-1.16.3-8.5.2.jar
 -rwxrwxrwx 1 root root   11M Mar 17 18:11 TConstruct-1.16.5-3.3.4.335.jar
@@ -258,7 +257,7 @@ total 506M
 -rwxrwxrwx 1 root root  595K Jan 17 09:52 mininggadgets-1.7.5.jar
 -rwxrwxrwx 1 root root  1.3M May  9 16:20 mob_grinding_utils-1.16.5-0.4.37.jar
 -rwxrwxrwx 1 root root   10K Jan 17 09:53 modnametooltip_1.16.2-1.15.0.jar
--rwxrwxrwx 1 root root     0 May 29 18:55 mods.txt
+-rwxrwxrwx 1 root root     0 May 29 20:07 mods.txt
 -rwxrwxrwx 1 root root  1.1M Jan 17 12:42 modular-routers-1.16.5-7.5.2-83.jar
 -rwxrwxrwx 1 root root  666K May  3 23:00 moreminecarts-1.3.16.jar
 -rwxrwxrwx 1 root root   39K Jan 17 09:53 nomowanderer_MC1.16.5_1.2.jar
