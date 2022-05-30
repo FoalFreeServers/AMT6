@@ -36,3 +36,4 @@
 	#The amount of entities that should be stored
 	#Range: 1 ~ 128
 	max_entities = 16
+
