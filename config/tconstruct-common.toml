@@ -71,7 +71,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 100
+			separation = 150
 
 		#Settings for sky slime islands in the overworld sky
 		[worldgen.slime_islands.sky]
@@ -79,7 +79,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 70
+			separation = 120
 
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
@@ -125,4 +125,3 @@
 	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.
 	#Does not provide recipes for any of them, they will only be available to cheat in creative.
 	forceIntegrationMaterials = false
-

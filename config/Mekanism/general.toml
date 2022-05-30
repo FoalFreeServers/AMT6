@@ -19,7 +19,7 @@
 	#How much Boiler heat is immediately usable to convert water to steam.
 	boilerWaterConductivity = 0.7
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
-	heatPerFuelTick = 400.0
+	heatPerFuelTick = 5000.0
 	#Number of ticks to burn an item at in a Fuelwood Heater. Use this config option to effectively make Fuelwood Heater's burn faster but produce the same amount of heat per item.
 	#Range: 1 ~ 1000
 	fuelwoodTickMultiplier = 1
@@ -197,4 +197,3 @@
 		inputPerAntimatter = 1000
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 		energyPerInput = "1000000"
-
