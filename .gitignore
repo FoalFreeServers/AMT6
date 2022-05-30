@@ -30,6 +30,7 @@ minecraft.pid
 /world/poi/
 /world/region/
 /world/stats/
+/world/structurize/
 /world/icon.png
 /world/level.*
 /world/session.lock
