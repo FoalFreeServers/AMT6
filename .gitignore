@@ -5,12 +5,15 @@
 
 # Uncessary logs & files
 /crash-reports/
+/dumps/
+/local/
 /logs/
 /.mixin.out/
 *.bak
 minecraft.pid
 
-# Region data
+# World data
+/patchouli_books/
 /world/advancements/
 /world/camera_images/
 /world/data/
