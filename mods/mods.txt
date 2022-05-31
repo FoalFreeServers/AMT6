@@ -286,6 +286,7 @@
 -rw-rw-r-- 1 sweetie sweetie  2.5M May 29 21:06 silent-gear-1.16.5-2.6.30.jar
 -rw-rw-r-- 1 sweetie sweetie  242K May 29 21:06 silent-lib-1.16.3-4.9.6.jar
 -rw-rw-r-- 1 sweetie sweetie  115K May 29 21:06 simplemagnets-1.1.7-forge-mc1.16.jar
+-rw-rw-r-- 1 sweetie sweetie  337K May 31 12:50 simpleplanes-1.16.5-4.6.0.jar
 -rw-rw-r-- 1 sweetie sweetie  536K May 29 21:06 simplylight-1.16.5-1.4.2-build.32.jar
 -rw-rw-r-- 1 sweetie sweetie  2.4M May 29 21:06 smallships-1.16.5-1.10.3.jar
 -rw-rw-r-- 1 sweetie sweetie  189K May 29 22:10 SolarFluxReborn-1.16.5-16.3.9.jar
