@@ -71,8 +71,13 @@ onEvent('recipes', e => {
 	'appliedenergistics2:silicon_press',
 	'appliedenergistics2:logic_processor_press',
 	'appliedenergistics2:engineering_processor_press',
-	'appliedenergistics2:calculation_processor_press'
-	
+	'appliedenergistics2:calculation_processor_press',
+	'torchmaster:megatorch',
+	'cyclic:emerald_boots',
+	'cyclic:emerald_helmet',
+	'cyclic:emerald_chestplate',
+	'cyclic:emerald_leggings'
+
   ])
   e.shaped('farmingforblockheads:market',['PWP','LEL','LLL'],{
 	P: '#minecraft:planks',
@@ -95,4 +100,10 @@ onEvent('recipes', e => {
   e.shaped('appliedenergistics2:calculation_processor_press',['III','ISI','III'],{
 	I: 'minecraft:iron_ingot',
     S: 'appliedenergistics2:purified_certus_quartz_crystal'})
+  e.shaped('torchmaster:megatorch',['THT','DLD','GLG'],{
+	T: 'minecraft:torch',
+	H: 'tconstruct:blaze_head',
+	D: 'minecraft:diamond',
+	L: '#minecraft:logs',
+  G: 'minecraft:gold_block'})
 })
