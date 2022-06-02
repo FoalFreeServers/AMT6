@@ -56,37 +56,27 @@ onEvent('recipes', e => {
     'twilightforest:uncrafting_table',
     'translocators:diamond_nugget'
   ])
-
-  removeRecipeByOutput(e, [
-    'darkutils:ender_hopper',
-    'naturesaura:chunk_loader',
-    'titanium:iron_gear',
-    'titanium:gold_gear',
-    'titanium:diamond_gear'
-  ])
-
-
- //MISC REMOVALS AND ADDITIONS FROM TANYA START AT LINE 66
+  //MISC REMOVALS AND ADDITIONS FROM TANYA START AT LINE 66
   removeRecipeByOutput(e, [
     'darkutils:ender_hopper',
     'naturesaura:chunk_loader',
     'titanium:iron_gear',
     'titanium:gold_gear',
     'titanium:diamond_gear',
-	'tanknull:tank_1',
-	'dankstorage:dank_1',
-	'solarflux:sp_1',
-	'farmingforblockheads:market',
-	'cyclic:eye_teleport',
-	'appliedenergistics2:silicon_press',
-	'appliedenergistics2:logic_processor_press',
-	'appliedenergistics2:engineering_processor_press',
-	'appliedenergistics2:calculation_processor_press',
-	'torchmaster:megatorch',
-	'cyclic:emerald_boots',
-	'cyclic:emerald_helmet',
-	'cyclic:emerald_chestplate',
-	'cyclic:emerald_leggings'
+	  'tanknull:tank_1',
+	  'dankstorage:dank_1',
+	  'solarflux:sp_1',
+	  'farmingforblockheads:market',
+	  'cyclic:eye_teleport',
+	  'appliedenergistics2:silicon_press',
+	  'appliedenergistics2:logic_processor_press',
+	  'appliedenergistics2:engineering_processor_press',
+	  'appliedenergistics2:calculation_processor_press',
+	  'torchmaster:megatorch',
+	  'cyclic:emerald_boots',
+	  'cyclic:emerald_helmet',
+	  'cyclic:emerald_chestplate',
+	  'cyclic:emerald_leggings'
 
   ])
   e.shaped('farmingforblockheads:market',['PWP','LEL','LLL'],{

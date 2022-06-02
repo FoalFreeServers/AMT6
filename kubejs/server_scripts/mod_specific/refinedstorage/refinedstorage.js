@@ -161,4 +161,6 @@ onEvent('recipes', e => {
   ])
 
   modifySmelt(e, 'refinedstorage:silicon', '#appliedenergistics2:crystals/quartz')
+  e.remove({output:'extradisks:raw_withering_processor'})
+  e.shapeless('1x extradisks:raw_withering_processor',['refinedstorage:processor_binding','refinedstorage:silicon','minecraft:redstone','kubejs:uru_nugget'])
 })
