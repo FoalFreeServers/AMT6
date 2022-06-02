@@ -74,6 +74,12 @@
          */
         MaxLength: 32.0,
 
+        Classic: {
+        },
+
+        Modern: {
+        },
+
     },
 
     Reactor: {
@@ -107,12 +113,21 @@
          */
         MaxLength: 128.0,
 
+        Experimental: {
+        },
+
         GUI: {
             /* 
              * Default: 2000
              */
             HeatDisplayMax: 2000.0,
 
+        },
+
+        Classic: {
+        },
+
+        Modern: {
         },
 
     },
