@@ -10,14 +10,12 @@ onEvent('jei.hide.items', e => {
       if (!Ingredient.of(id).stacks.empty) e.hide(id)
     })
   }
-
   function hideStuff(mod, type, names) {
     names.forEach(name => {
       let id = typeFirst.includes(mod) ? `${mod}:${type}_${name}` : `${mod}:${name}_${type}`
       if (!Ingredient.of(id).stacks.empty) e.hide(id)
     })
   }
-
   //#endregion
 
   e.hide([
