@@ -12,6 +12,6 @@
 	respawnprotection = true
 
 [debug]
-	#Wether to enable debug log outputs, default: false
+	#Whether to enable debug log outputs, default: false
 	debugLog = false
 
