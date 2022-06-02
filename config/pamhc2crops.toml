@@ -32,7 +32,7 @@
 ["Tweak Garden Cluster Sizes"]
 	#Amount of gardens that spawn together. Higher numbers indicate larger clusters; 32 is about 3-7ish (Default: 32)
 	#Range: 1 ~ 1000000000
-	"Probability of gardens generating" = 32
+	"Probability of gardens generating" = 50
 
 ["Enable/Disable Garden World Generation"]
 	#Should arid gardens should generate in world
