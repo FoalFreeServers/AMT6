@@ -64,6 +64,8 @@ onEvent('recipes', e => {
     'titanium:gold_gear',
     'titanium:diamond_gear'
   ])
+
+
  //MISC REMOVALS AND ADDITIONS FROM TANYA START AT LINE 66
   removeRecipeByOutput(e, [
     'darkutils:ender_hopper',
@@ -114,5 +116,4 @@ onEvent('recipes', e => {
 	D: 'minecraft:diamond',
 	L: '#minecraft:logs',
   G: 'minecraft:gold_block'})
-})
 })
