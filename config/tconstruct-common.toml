@@ -71,7 +71,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 25
+			separation = 150
 
 		#Settings for sky slime islands in the overworld sky
 		[worldgen.slime_islands.sky]
@@ -79,7 +79,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 30
+			separation = 120
 
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
@@ -87,7 +87,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 100
+			separation = 130
 
 		#Settings for blood islands in the nether lava ocean
 		[worldgen.slime_islands.blood]
@@ -95,7 +95,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 13
+			separation = 25
 
 		#Settings for end slime islands in the outer end islands
 		[worldgen.slime_islands.end]
@@ -103,7 +103,7 @@
 			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
-			separation = 25
+			separation = 35
 
 #Options related to loot table injections. Note some of the changes are done via global loot managers, these only control injecting loot into loot pools
 #If your modpack makes extensive loot table changes, many of these may be automatically disabled. You can also manually set up tables for more control.

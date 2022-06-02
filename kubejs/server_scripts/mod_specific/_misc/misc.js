@@ -64,4 +64,55 @@ onEvent('recipes', e => {
     'titanium:gold_gear',
     'titanium:diamond_gear'
   ])
+ //MISC REMOVALS AND ADDITIONS FROM TANYA START AT LINE 66
+  removeRecipeByOutput(e, [
+    'darkutils:ender_hopper',
+    'naturesaura:chunk_loader',
+    'titanium:iron_gear',
+    'titanium:gold_gear',
+    'titanium:diamond_gear',
+	'tanknull:tank_1',
+	'dankstorage:dank_1',
+	'solarflux:sp_1',
+	'farmingforblockheads:market',
+	'cyclic:eye_teleport',
+	'appliedenergistics2:silicon_press',
+	'appliedenergistics2:logic_processor_press',
+	'appliedenergistics2:engineering_processor_press',
+	'appliedenergistics2:calculation_processor_press',
+	'torchmaster:megatorch',
+	'cyclic:emerald_boots',
+	'cyclic:emerald_helmet',
+	'cyclic:emerald_chestplate',
+	'cyclic:emerald_leggings'
+
+  ])
+  e.shaped('farmingforblockheads:market',['PWP','LEL','LLL'],{
+	P: '#minecraft:planks',
+	W: '#forge:wool',
+	L: '#minecraft:logs',
+    E: 'compressium:emerald_4'})
+  e.shaped('cyclic:eye_teleport',['IRI','RSR','IRI'],{
+	I: 'minecraft:iron_ingot',
+	R: 'minecraft:redstone',
+    S: 'cyclic:ender_eye_reuse'})
+  e.shaped('appliedenergistics2:silicon_press',['III','ISI','III'],{
+	I: 'minecraft:iron_ingot',
+    S: 'appliedenergistics2:silicon'})
+  e.shaped('appliedenergistics2:logic_processor_press',['III','ISI','III'],{
+	I: 'minecraft:iron_ingot',
+    S: 'minecraft:gold_ingot'})
+  e.shaped('appliedenergistics2:engineering_processor_press',['III','ISI','III'],{
+	I: 'minecraft:iron_ingot',
+    S: 'minecraft:diamond'})
+  e.shaped('appliedenergistics2:calculation_processor_press',['III','ISI','III'],{
+	I: 'minecraft:iron_ingot',
+    S: 'appliedenergistics2:purified_certus_quartz_crystal'})
+  e.shaped('torchmaster:megatorch',['THT','DLD','GLG'],{
+	T: 'minecraft:torch',
+	H: 'tconstruct:blaze_head',
+	D: 'minecraft:diamond',
+	L: '#minecraft:logs',
+  G: 'minecraft:gold_block'})
+})
 })

@@ -72,7 +72,7 @@
 			cooldown: 600
 
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 
         # Allows admins to create 'warps', which are fixed points in the world that users may teleport to using /warp
