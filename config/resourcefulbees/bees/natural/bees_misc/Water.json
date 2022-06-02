@@ -52,7 +52,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:beach,tag:river",
+    "biomeWhitelist": "tag:ocean,tag:river",
     "spawnWeight": 5,
     "minYLevel": 0,
     "maxYLevel": 255,

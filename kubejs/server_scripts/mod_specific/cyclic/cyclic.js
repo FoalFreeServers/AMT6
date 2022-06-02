@@ -35,14 +35,6 @@ onEvent('recipes', e => {
     'cyclic:packager', // lag issues
     'cyclic:uncrafter',
     'cyclic:tile_transporter_empty',
-    'cyclic:trash',
-	'cyclic:generator_fuel',
-	'cyclic:generator_food',
-	'cyclic:generator_fluid',
-	'cyclic:generator_item',
-	'cyclic:wireless_energy',
-	'cyclic:wireless_fluid',
-	'cyclic:wireless_item',
-	'cyclic:crate',
+    'cyclic:trash'
   ])
 })

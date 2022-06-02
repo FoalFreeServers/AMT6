@@ -30,6 +30,10 @@ onEvent('recipes', e => {
   essenceCircle('silentgear:crimson_iron_ingot', 6, 'crimson_iron')
   essenceCircle('alltheores:copper_ingot', 6, 'copper')
 
+  e.remove({id: 'mysticalagriculture:essence/common/aluminum_ingot'})
+  essenceCircle('alltheores:aluminum_ingot', 4, 'aluminum')
+
+
   modifyShaped(e, 'mysticalagriculture:unattuned_augment', 1, ['PMP', 'AMA', 'PMP'], {
     P: 'mysticalagriculture:prosperity_ingot',
     M: 'botania:manasteel_ingot',
@@ -45,7 +49,7 @@ onEvent('recipes', e => {
     result: { item: 'mysticalagriculture:marble_seeds' }
   }).id('kubejs:mysticalagriculture/marble_seeds')
 
-  utils.listOf(['basalz', 'blazing_crystal', 'blitz', 'blizz', 'brass', 'bronze', 'compressed_iron', 'constantan', 'chrome', 'electrum', 'elementium', 'ender_biotite', 'energized_steel', 'fluix', 'graphite', 'hop_graphite', 'invar', 'iridium', 'manasteel', 'niotic_crystal', 'nitro_crystal', 'quartz_enriched_iron', 'refined_glowstone', 'refined_obsidian', 'rock_crystal', 'rubber', 'signalum', 'silicon', 'sky_stone', 'spirited_crystal', 'starmetal', 'steel', 'sulfur', 'terrasteel', 'titanium', 'tungsten', 'mithril', 'tinkers_bronze', 'ironwood', 'steeleaf', 'pig_iron', 'slimesteel', 'rose_gold', 'queens_slime', 'manyullyn', 'fiery_ingot', 'knightmetal', 'hepatizon', 'lumium', 'enderium']).forEach(type => {
+  maDisabledSeeds.forEach(type => {
     utils.listOf(['seeds', 'essence']).forEach(name => {
       e.remove({ output: `mysticalagriculture:${type}_${name}` , id: '/mysticalagriculture/' })
       e.remove({ input: `mysticalagriculture:${type}_${name}` , id: '/mysticalagriculture/' })
@@ -85,12 +89,6 @@ onEvent('recipes', e => {
     'upgrade_aquatic:perch',
     'upgrade_aquatic:pike',
   ];
-  e.remove({type:'mysticalagriculture:infusion', input:'mysticalagriculture:inferium_essence', output:'#mysticalagriculture:seeds'})
-  e.remove({type:'mysticalagriculture:infusion', input:'mysticalagriculture:prudentium_essence', output:'#mysticalagriculture:seeds'})
-  e.remove({type:'mysticalagriculture:infusion', input:'mysticalagriculture:tertium_essence', output:'#mysticalagriculture:seeds'})
-  e.remove({type:'mysticalagriculture:infusion', input:'mysticalagriculture:imperium_essence', output:'#mysticalagriculture:seeds'})
-  e.remove({type:'mysticalagriculture:infusion', input:'mysticalagriculture:supremium_essence', output:'#mysticalagriculture:seeds'})
-  e.remove({type:'mysticalagriculture:infusion', output:'mysticalagriculture:nether_star_seeds'})
 
   fish.forEach(name => {
     e.custom({
