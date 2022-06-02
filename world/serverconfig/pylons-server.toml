@@ -33,3 +33,11 @@
 	#If the list is empty, then all effects will be allowed except for those specifically denied.
 	infusionAllowedEffects = []
 
+[harvester_pylon]
+	#Delay between harvest attempts (in ticks).
+	#Range: 10 ~ 120
+	harvesterWorkDelay = 60
+	#Whether the harvester requires a hoe to work.
+	#If enabled, it will use 1 durability per harvest action
+	harvesterRequiresTool = true
+
