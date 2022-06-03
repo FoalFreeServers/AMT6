@@ -3,7 +3,7 @@
 
 # Change arguments here
 export MINECRAFTJAR=forge-1.16.5-36.2.34.jar
-export RAM=32G
+export RAM=30G
 export JAVA=/home/sweetie/bin/jdk8u332-b09/bin/java
 
 
