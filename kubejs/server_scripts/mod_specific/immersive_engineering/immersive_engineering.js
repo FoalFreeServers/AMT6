@@ -72,7 +72,7 @@ onEvent('recipes', e => {
 
   removeRecipeByID(e, [
     'immersiveengineering:crafting/ingot_steel_from_dust_from_blasting',
-    'immersiveengineering:crafting/ingot_steel_from_dust,
+    'immersiveengineering:crafting/ingot_steel_from_dust',
     /^immersiveengineering:crafting\/ingot_.*_to_storage_.*/,
     'immersivepetroleum:hydrotreater/sulfur_recovery',
     'immersiveengineering:crusher/nether_wart',
