@@ -1,13 +1,13 @@
 {
-	id: "26f20181-d383-4270-8050-22e554fd375b"
+	id: "c975d473-4e1d-40ab-995e-2ae6079f7553"
 	type: "player"
-	player_name: "PolskaSklep"
+	player_name: "Dinges360"
 	ranks: {
-		26f20181-d383-4270-8050-22e554fd375b: "owner"
+		c975d473-4e1d-40ab-995e-2ae6079f7553: "owner"
 	}
 	properties: {
-		"ftbteams:display_name": "engrishLINGLING"
-		"ftbteams:color": "#596EFF"
+		"ftbteams:display_name": "Dinges360"
+		"ftbteams:color": "#59EEFF"
 		"ftbchunks:block_edit_mode": "allies"
 		"ftbchunks:block_interact_mode": "allies"
 		"ftbteams:description": ""

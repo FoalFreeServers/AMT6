@@ -1,13 +1,13 @@
 {
-	id: "26f20181-d383-4270-8050-22e554fd375b"
+	id: "7491957f-4e02-4d40-8075-7c9b5dffb783"
 	type: "player"
-	player_name: "PolskaSklep"
+	player_name: "shroomdog27"
 	ranks: {
-		26f20181-d383-4270-8050-22e554fd375b: "owner"
+		7491957f-4e02-4d40-8075-7c9b5dffb783: "owner"
 	}
 	properties: {
-		"ftbteams:display_name": "engrishLINGLING"
-		"ftbteams:color": "#596EFF"
+		"ftbteams:display_name": "shroomdog27"
+		"ftbteams:color": "#59FFED"
 		"ftbchunks:block_edit_mode": "allies"
 		"ftbchunks:block_interact_mode": "allies"
 		"ftbteams:description": ""

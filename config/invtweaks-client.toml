@@ -1,23 +1,4 @@
 
-#Tweaks
-[tweaks]
-	#0 = disable buttons (i.e. keybind only)
-	#1 = buttons for player sorting only
-	#2 = buttons for external sorting only
-	#3 = all buttons enabled (default)
-	#Range: 0 ~ 3
-	enableButtons = 0
-	#Enable auto-refill
-	autoRefill = true
-	#Enable a quick view of how many items that you're currently holding exists in your inventory by displaying it next your hotbar.
-	quickView = true
-	#0 = disable sorting
-	#1 = player sorting only
-	#2 = external sorting only
-	#3 = all sorting enabled (default)
-	#Range: 0 ~ 3
-	enableSort = 3
-
 #Sorting customization
 [sorting]
 	#Rules for sorting
@@ -37,63 +18,6 @@
 	#CATEGORY = /FROZEN has the effect of /LOCKED and, in addition, ignores slot in auto-refill
 	#CATEGORY = /OTHER covers all remaining items after other rules are exhausted
 	rules = ["D /LOCKED", "A1-C9 /OTHER"]
-
-	#Custom settings per GUI
-	#x = x-position of external sort button relative to GUI top left
-	#y = same as above except for the y-position
-	#Omit x and y to leave position unchanged
-	#sortRange = slots to sort
-	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
-	#sortRange = "" disables sorting for that container
-	#Out-of-bound slots are ignored
-	#Omit sortRange to leave as default
-	[[sorting.containerOverrides]]
-		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "tfar.dankstorage.container.DankContainers"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.container.implementations.InterfaceTerminalContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.container.implementations.CraftingTermContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.container.implementations.PatternTermContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "appeng.container.implementations.WirelessTermContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "com.YTrollman.CreativeCrafter.container.CreativeCrafterContainerMenu"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "edivad.extrastorage.container.AdvancedCrafterContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "com.refinedmods.refinedstorage.container.CrafterContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "com.refinedmods.refinedstorage.container.CrafterManagerContainer"
-		sortRange = ""
-
-	[[sorting.containerOverrides]]
-		containerClass = "slimeknights.tconstruct.smeltery.inventory.HeatingStructureContainer"
-		sortRange = ""
 
 	#Categor(y/ies) for sorting
 	#
@@ -139,4 +63,60 @@
 	[[sorting.category]]
 		name = "blocks"
 		spec = ["/instanceof:net.minecraft.item.BlockItem"]
+
+	#Custom settings per GUI
+	#x = x-position of external sort button relative to GUI top left
+	#y = same as above except for the y-position
+	#Omit x and y to leave position unchanged
+	#sortRange = slots to sort
+	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
+	#sortRange = "" disables sorting for that container
+	#Out-of-bound slots are ignored
+	#Omit sortRange to leave as default
+	[[sorting.containerOverrides]]
+		containerClass = "com.tfar.craftingstation.CraftingStationContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.container.DankContainers"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "appeng.container.implementations.InterfaceTerminalContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "appeng.container.implementations.CraftingTermContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "appeng.container.implementations.PatternTermContainer"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "appeng.container.implementations.WirelessTermContainer"
+		sortRange = ""
+
+#Tweaks
+[tweaks]
+	#Enable auto-refill
+	autoRefill = true
+	#Enable a quick view of how many items that you're currently holding exists in your inventory by displaying it next your hotbar.
+	quickView = true
+	#0 = disable sorting
+	#1 = player sorting only
+	#2 = external sorting only
+	#3 = all sorting enabled (default)
+	#Range: 0 ~ 3
+	enableSort = 3
+	#0 = disable buttons (i.e. keybind only)
+	#1 = buttons for player sorting only
+	#2 = buttons for external sorting only
+	#3 = all buttons enabled (default)
+	#Range: 0 ~ 3
+	enableButtons = 3
 
