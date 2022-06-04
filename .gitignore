@@ -27,7 +27,12 @@ minecraft.pid
 /world/**/region/
 /world/dimensions/
 /world/entities/
+/world/ftbchunks/
+/world/ftbessentials/
+/world/ftbquests/
+/world/ftbteams/
 /world/playerdata/
+/world/pneumaticcraft/
 /world/poi/
 /world/region/
 /world/stats/
@@ -36,4 +41,5 @@ minecraft.pid
 /world/kubejs_persistent_data.nbt
 /world/level.*
 /world/session.lock
+/world/start.sh
 /world/touchfile
