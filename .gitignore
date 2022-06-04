@@ -37,9 +37,9 @@ minecraft.pid
 /world/region/
 /world/stats/
 /world/structurize/
+/world/delete-world.sh
 /world/icon.png
 /world/kubejs_persistent_data.nbt
 /world/level.*
 /world/session.lock
-/world/start.sh
 /world/touchfile
