@@ -2,7 +2,7 @@
 [settings]
 	#Time in seconds before the server will restart.
 	#Range: 60 ~ 9223372036854775
-	shutdownLength = 32400
+	shutdownLength = 28800
 	#List of Strings and delay before announcement.
 	shutdownMessages = ["3600|The server will restart in 1 hour.", "1800|The server will restart in 30 minutes.", "600|The server will restart in 10 minutes.", "300|The server will restart in 5 minutes.", "60|The server will restart in 1 minute.", "30|The server will restart in 30 seconds.", "15|The server will restart in 15 seconds.", "7|Restarting in 7 seconds...", "6|Restarting in 6 seconds...", "5|Restarting in 5 seconds...", "4|Restarting in 4 seconds...", "3|Restarting in 3 seconds...", "2|Restarting in 2 seconds...", "1|Restarting in 1 second..."]
 

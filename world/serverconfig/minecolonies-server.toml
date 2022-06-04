@@ -2,15 +2,15 @@
 #All configurations related to the MineColonies commands
 [commands]
 	#Should players be allowed to use the /mc rtp command? [Default: false]
-	canplayerusertpcommand = true
+	canplayerusertpcommand = false
 	#Should players be allowed to use the /mc home command? Note: Only owners of the colony can use this command. [Default: false]
-	canplayerusehometpcommand = true
+	canplayerusehometpcommand = false
 	#Should players be allowed to use the /mc citizens kill command? [Default: false]
-	canplayerusekillcitizenscommand = true
+	canplayerusekillcitizenscommand = false
 	#Should players be allowed to use the /mc colony teleport command? [Default: false]
 	canplayerusecolonytpcommand = false
 	#Can players teleport to allied colonies? [Default: true]
-	canplayeruseallytownhallteleport = true
+	canplayeruseallytownhallteleport = false
 	#Should players be allowed to use the /mc colony info command? [Default: true]
 	canplayeruseshowcolonyinfocommand = true
 	#Should players be allowed to use the /mc colony addOfficer command? [Default: true]
@@ -30,14 +30,14 @@
 	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
 	#Set the max amount of backups kept [Default: 50, min: 3, max: 5000]
 	#Range: 3 ~ 5000
-	maxkeptbackups = 50
+	maxkeptbackups = 3
 	#Players who have special permissions, especially to change citizen names (see "Name Changes" above). 
-	specialpermgroup = ["_Raycoms_"]
+	specialpermgroup = ["shroomdog27", "PolskaSklep"]
 	#Blocks players should be able to interact with in any colony (ex: vending machines) 
 	freetointeractblocks = ["dirt", "0 0 0"]
 	#Seconds between each permission message (to reduce spam). [Default: 30, min: 1, max: 1000]
 	#Range: 1 ~ 1000
-	secondsBetweenPermissionMessages = 30
+	secondsBetweenPermissionMessages = 1
 
 #All configuration items related to the citizen names
 [names]

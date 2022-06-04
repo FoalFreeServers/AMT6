@@ -199,7 +199,7 @@
 #Options related to the command recovery and auto-save of players
 [recovery]
 	#Enables to backup automatically players [false/true|default:true]
-	recovery_player_enable = true
+	recovery_player_enable = false
 	#Time in minutes between players' backups [10..1000|default:40]
 	#Range: 5 ~ 1000
 	recovery_player_timer = 19
@@ -207,9 +207,9 @@
 	#Range: 5 ~ 100
 	recovery_player_max_saves = 15
 	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
+	recovery_familiar_enable = false
 	#Backup players on death [false/true|default:false]
-	backup_on_death = true
+	backup_on_death = false
 
 #Allows to enable some features related to others mods
 [compatibility]
