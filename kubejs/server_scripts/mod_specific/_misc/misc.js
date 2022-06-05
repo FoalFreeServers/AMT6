@@ -83,27 +83,15 @@ onEvent('recipes', e => {
 	P: '#minecraft:planks',
 	W: '#forge:wool',
 	L: '#minecraft:logs',
-    E: 'compressium:emerald_4'})
+    E: 'compressium:emerald_4'}).id(`kubejs:farmingforblockheads/market`)
   e.shaped('cyclic:eye_teleport',['IRI','RSR','IRI'],{
 	I: 'minecraft:iron_ingot',
 	R: 'minecraft:redstone',
-    S: 'cyclic:ender_eye_reuse'})
-  e.shaped('appliedenergistics2:silicon_press',['III','ISI','III'],{
-	I: 'minecraft:iron_ingot',
-    S: 'appliedenergistics2:silicon'})
-  e.shaped('appliedenergistics2:logic_processor_press',['III','ISI','III'],{
-	I: 'minecraft:iron_ingot',
-    S: 'minecraft:gold_ingot'})
-  e.shaped('appliedenergistics2:engineering_processor_press',['III','ISI','III'],{
-	I: 'minecraft:iron_ingot',
-    S: 'minecraft:diamond'})
-  e.shaped('appliedenergistics2:calculation_processor_press',['III','ISI','III'],{
-	I: 'minecraft:iron_ingot',
-    S: 'appliedenergistics2:purified_certus_quartz_crystal'})
+    S: 'cyclic:ender_eye_reuse'}).id(`kubejs:cyclic/eye_teleport`)
   e.shaped('torchmaster:megatorch',['THT','DLD','GLG'],{
 	T: 'minecraft:torch',
 	H: 'tconstruct:blaze_head',
 	D: 'minecraft:diamond',
 	L: '#minecraft:logs',
-  G: 'minecraft:gold_block'})
+  G: 'minecraft:gold_block'}).id(`kubejs:torchmaster/megatoch`)
 })
