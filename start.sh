@@ -34,6 +34,8 @@ $JAVA -Xmx$RAM \
 -Dmixin.debug.verbose=true \
 -jar $MINECRAFTJAR nogui
 
+rm world/minecolonies/*.zip
+
 ~/bin/backup-minecraft-full.sh
 
 cd mods/
