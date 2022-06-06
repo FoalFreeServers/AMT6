@@ -228,7 +228,7 @@
 		"Enable Iron Ladder" = true
 
 [management]
-	"Easy Transfering" = false
+	"Easy Transfering" = true
 	"Inventory Sorting" = true
 	"Right Click Armor" = false
 	"Chests In Boats" = true
