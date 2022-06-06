@@ -21,6 +21,7 @@ minecraft.pid
 /world/data/
 /world/datapacks/
 /world/deaths/
+/world/EnderStorage/
 /world/**/data/
 /world/**/entities/
 /world/**/poi/
@@ -32,6 +33,7 @@ minecraft.pid
 /world/ftbquests/
 /world/ftbteams/
 /world/minecolonies/
+/world/observerlib/
 /world/playerdata/
 /world/pneumaticcraft/
 /world/poi/
