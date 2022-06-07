@@ -5,3 +5,4 @@
 	shutdownLength = 28800
 	#List of Strings and delay before announcement.
 	shutdownMessages = ["25200|The server will restart in 7 hours.", "21600|The server will restart in 6 hours.", "18000|The server will restart in 5 hours.", "14400|The server will restart in 4 hours.", "10800|The server will restart in 3 hours.", "7200|The server will restart in 2 hours.", "3600|The server will restart in 1 hour.", "1800|The server will restart in 30 minutes.", "600|The server will restart in 10 minutes.", "300|The server will restart in 5 minutes.", "60|The server will restart in 1 minute.", "30|The server will restart in 30 seconds.", "15|The server will restart in 15 seconds.", "7|Restarting in 7 seconds...", "6|Restarting in 6 seconds...", "5|Restarting in 5 seconds...", "4|Restarting in 4 seconds...", "3|Restarting in 3 seconds...", "2|Restarting in 2 seconds...", "1|Restarting in 1 second..."]
+
