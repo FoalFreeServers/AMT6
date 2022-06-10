@@ -1,6 +1,6 @@
 === FTB Ranks ===
 
-Last README file update: Sun May 29 19:52:53 EDT 2022
+Last README file update: Fri Jun 10 02:47:01 EDT 2022
 Wiki: https://www.notion.so/feedthebeast/FTB-Mod-Documentation-da2e359bad2449459d58d787edda3168
 To refresh this file, run /ftbranks refresh_readme
 
@@ -1116,11 +1116,6 @@ command.forge.track.start.entity.duration
 command.forge.track.start.te
 command.forge.track.start.te.duration
 command.forge.track.te
-command.ftbbackups
-command.ftbbackups.size
-command.ftbbackups.start
-command.ftbbackups.start.name
-command.ftbbackups.time
 command.ftbchunks
 command.ftbchunks.admin
 command.ftbchunks.admin.bypass_protection

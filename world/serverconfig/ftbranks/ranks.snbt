@@ -17,9 +17,10 @@
 		name: "Admin"
 		power: 1000
 		condition: "op"
-		ftbranks.name_format: "<&c{name}&r>"
+		ftbranks.name_format: "<&c🔥{name}&r>"
 		ftbchunks.max_claimed: 100
 		ftbchunks.max_force_loaded: 16
 		command: true
+		command.ftbchunks.admin: true
 	}
 }
