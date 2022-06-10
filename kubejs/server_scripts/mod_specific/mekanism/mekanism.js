@@ -105,8 +105,7 @@ onEvent('recipes', e => {
     'mekanism:mekasuit_boots',
     'mekanism:processing/diamond/to_dust',
     'mekanism:gas_conversion/salt_to_hydrogen_chloride',
-    'mekanism:robit',
-    'mekanism:bio_fuel',
+    'mekanism:bio_fuel'
   ])
   removeRecipeByOutput(e, [
     'mekanism:block_charcoal',
