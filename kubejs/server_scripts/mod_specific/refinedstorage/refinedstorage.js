@@ -127,12 +127,6 @@ onEvent('recipes', e => {
     b: '#forge:dusts/redstone',
     n: '#forge:ingots/unobtainium'
   }).id('kubejs:infinite_storage_part')
-  e.shaped('creativewirelesstransmitter:creative_wireless_transmitter', ['ITI', 'ICI', 'IDI'], {
-    I: 'allthemodium:unobtainium_ingot',
-    D: 'rsinfinitybooster:dimension_card',
-    C: 'refinedstorage:machine_casing',
-    T: 'refinedstorage:wireless_transmitter'
-  }).id('kubejs:creativewirelesstransmitter/creative_wireless_transmitter')
 
 
   caTier(`elite`, `#forge:storage_blocks/iron`, `refinedstorage:improved_processor`, `refinedstorage:`)
