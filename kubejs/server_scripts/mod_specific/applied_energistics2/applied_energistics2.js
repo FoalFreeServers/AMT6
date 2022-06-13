@@ -81,7 +81,6 @@ onEvent('recipes', e => {
     'appliedenergistics2:silicon',
     'appliedenergistics2:flour',
     'appliedenergistics2:ender_dust',
-    'appliedenergistics2:network_tool',
     'apotheosis:explosive_arrow',
     'apotheosis:diamond_mining_arrow',
     'apotheosis:iron_mining_arrow'
