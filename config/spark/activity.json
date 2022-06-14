@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "shroomdog27",
+      "uniqueId": "7491957f-4e02-4d40-8075-7c9b5dffb783"
+    },
+    "time": 1655164160445,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5MDrQfFKjY"
+    }
+  }
+]
