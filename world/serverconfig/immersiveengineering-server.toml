@@ -152,13 +152,13 @@
 	[wires.hv]
 		#The maximum length of hv wires
 		#Range: > 0
-		maxLength = 32
+		maxLength = 64
 		#The transfer rate of hv wire in IF/t
 		#Range: > 0
 		transferRate = 32768
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
-		loss = 0.025
+		loss = 0.0025
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
 		wireConnectorInput = 4096
@@ -166,12 +166,12 @@
 	[wires.rope]
 		#The maximum length of rope wires
 		#Range: > 0
-		maxLength = 32
+		maxLength = 64
 
 	[wires.cable]
 		#The maximum length of cable wires
 		#Range: > 0
-		maxLength = 32
+		maxLength = 64
 
 	[wires.redstone]
 		#The maximum length of redstone wires
@@ -517,4 +517,3 @@
 		foods = []
 		#A whitelist of wire-related allowed in the toolbox, formatting: [mod id]:[item name]
 		wiring = []
-
