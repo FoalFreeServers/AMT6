@@ -18,3 +18,4 @@
 ["Chunk slow unload settings"]
 	#Enable slow chunk unloading(~1minute) after load, helps with mods hot-loading chunks frequently. Default: true
 	chunkunload = true
+
