@@ -46,3 +46,6 @@ minecraft.pid
 /world/level.*
 /world/session.lock
 /world/touchfile
+
+# Sensitive data
+/world/serverconfig/serverrestart-discord-webhook.toml
