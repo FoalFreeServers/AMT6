@@ -2,7 +2,7 @@
 
 
 # Change arguments here
-export MINECRAFTJAR=forge-1.16.5-36.2.40-1.16.x-shroom-array.jar
+export MINECRAFTJAR=forge-1.16.5-36.2.34.jar
 export RAM=12G
 export JAVA=/home/sweetie/bin/jdk8u332-b09/bin/java
 

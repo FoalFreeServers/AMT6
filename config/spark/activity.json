@@ -5,6 +5,19 @@
       "name": "shroomdog27",
       "uniqueId": "7491957f-4e02-4d40-8075-7c9b5dffb783"
     },
+    "time": 1655847620694,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/KRjGb5uv2X"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "shroomdog27",
+      "uniqueId": "7491957f-4e02-4d40-8075-7c9b5dffb783"
+    },
     "time": 1655512324649,
     "type": "Profiler",
     "data": {
