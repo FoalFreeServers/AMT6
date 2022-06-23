@@ -48,4 +48,4 @@ minecraft.pid
 /world/touchfile
 
 # Sensitive data
-/world/serverconfig/serverrestart-discord-webhook.toml
+/config/serverrestart/discord-webhook.toml

@@ -1,0 +1,128 @@
+[
+  {
+    "name":"7 Hours",
+    "time":25200,
+    "message":"The server will restart in 7 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"6 Hours",
+    "time":21600,
+    "message":"The server will restart in 6 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"5 Hours",
+    "time":18000,
+    "message":"The server will restart in 5 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"4 Hours",
+    "time":14400,
+    "message":"The server will restart in 4 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"3 Hours",
+    "time":10800,
+    "message":"The server will restart in 3 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"2 Hours",
+    "time":7200,
+    "message":"The server will restart in 2 hours.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"1 Hours",
+    "time":3600,
+    "message":"The server will restart in 1 hours.",
+    "announceToDiscord":true
+  },
+  {
+    "name":"30 Minutes",
+    "time":1800,
+    "message":"The server will restart in 30 minutes.",
+    "announceToDiscord":true
+  },
+  {
+    "name":"10 Minutes",
+    "time":600,
+    "message":"The server will restart in 10 minutes.",
+    "announceToDiscord":true
+  },
+  {
+    "name":"5 Minutes",
+    "time":300,
+    "message":"The server will restart in 5 minutes.",
+    "announceToDiscord":true
+  },
+  {
+    "name":"1 Minute",
+    "time":60,
+    "message":"The server will restart in 1 minute.",
+    "announceToDiscord":true
+  },
+  {
+    "name":"30 Seconds",
+    "time":9,
+    "message":"The server will restart in 30 seconds.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"15 Seconds",
+    "time":15,
+    "message":"The server will restart in 15 seconds.",
+    "announceToDiscord":false
+  },
+  {
+    "name":"7 Seconds",
+    "time":7,
+    "message":"Restarting in 7 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"6 Seconds",
+    "time":6,
+    "message":"Restarting in 6 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"5 Seconds",
+    "time":5,
+    "message":"Restarting in 5 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"4 Seconds",
+    "time":4,
+    "message":"Restarting in 4 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"3 Seconds",
+    "time":3,
+    "message":"Restarting in 3 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"2 Seconds",
+    "time":2,
+    "message":"Restarting in 2 seconds...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"1 Second",
+    "time":1,
+    "message":"Restarting in 1 second...",
+    "announceToDiscord":false
+  },
+  {
+    "name":"0 Seconds",
+    "time":0,
+    "message":"Server restarting now!",
+    "announceToDiscord":false
+  }
+]

@@ -1,0 +1,21 @@
+
+[restart]
+	#Time in seconds before the server will restart.
+	#Range: 60 ~ 9223372036854775
+	shutdownLength = 28800
+
+[discord]
+	#The image URL to show in the Discord embed Footer. Use "null" to disable.
+	embedFooterUrl = "https://i.imgur.com/ySiQLw6.gif"
+	#The comment to show in the Discord embed Footer. Use "null" to disable.
+	embedFooterText = "Server Restart Notifications"
+	#The color to use for the Discord embed.
+	#Range: 0 ~ 16777215
+	embedColor = 15258703
+	#The URL to use for the webhook avatar. Use "null" to disable.
+	avatarUrl = "https://i.imgur.com/04PZw86.gif"
+	#The string to send when the server first starts. Mentions are allowed here.
+	startupMessage = "null"
+	#The name of the webhook to send to Discord. Use "null" to disable.
+	serverName = "ATM6"
+
