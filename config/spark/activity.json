@@ -1,6 +1,31 @@
 [
   {
     "user": {
+      "type": "other",
+      "name": "Console"
+    },
+    "time": 1656427099818,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/buuU2LCgHJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "PolskaSklep",
+      "uniqueId": "26f20181-d383-4270-8050-22e554fd375b"
+    },
+    "time": 1656426613057,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FWWxAxB7Pj"
+    }
+  },
+  {
+    "user": {
       "type": "player",
       "name": "shroomdog27",
       "uniqueId": "7491957f-4e02-4d40-8075-7c9b5dffb783"
