@@ -4,7 +4,8 @@
 /mods/*.dis
 /*.jar
 
-# Uncessary logs & files
+# Uncessary logs
+/config/spark/activity.json
 /crash-reports/
 /dumps/
 /local/
