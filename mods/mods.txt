@@ -337,6 +337,7 @@
 -rw-rw-r-- 1 sweetie sweetie   30K Jan 17 09:59 windowlogging-mc1.16.5_v0.0.5.jar
 -rw-rw-r-- 1 sweetie sweetie   27K Jan 17 10:01 WitherSkeletonTweaks-1.16.5-5.4.1.jar
 -rw-rw-r-- 1 sweetie sweetie  1.1M Feb  3 18:07 woot-1.16.5-1.0.8.3.jar
+-rw-rw-r-- 1 sweetie sweetie  5.1M Jun 29 20:44 worldedit-mod-7.2.5-dist.jar
 -rw-rw-r-- 1 sweetie sweetie  510K Jan 17 12:50 xnet-1.16-3.0.16.jar
 -rw-rw-r-- 1 sweetie sweetie  259K May  6 22:19 XNetGases-1.16.5-2.3.10.jar
 -rw-rw-r-- 1 sweetie sweetie   18K Apr 11 17:56 xptome-1.16.5-v2.1.5.jar
