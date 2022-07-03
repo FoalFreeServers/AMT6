@@ -188,7 +188,7 @@
 -rw-rw-r-- 1 sweetie sweetie   13K May 22 18:42 logprot-1.16-1.6.jar
 -rw-rw-r-- 1 sweetie sweetie  668K Jan 17 09:54 Lollipop-1.16.5-3.2.9.jar
 -rw-rw-r-- 1 sweetie sweetie  333K May 26 20:23 lootr-1.16.5-0.1.12.43.jar
--rw-rw-r-- 1 sweetie sweetie   22K Jun 30 22:08 Lore-1.16.5-4f38a33.jar
+-rw-rw-r-- 1 sweetie sweetie   17K Jul  3 03:03 Lore-1.16.5-61dae18.jar
 -rw-rw-r-- 1 sweetie sweetie  826K Jan 17 12:50 lostcities-1.16-4.0.11-beta.jar
 -rw-rw-r-- 1 sweetie sweetie  3.7M May 31 23:33 mahoutsukai-1.16.5-v1.34.16.jar
 -rw-rw-r-- 1 sweetie sweetie   23M Feb 20 20:49 mana-and-artifice-1.5.1.7.jar
