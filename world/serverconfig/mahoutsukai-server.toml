@@ -828,6 +828,9 @@
 	#How long the buff lasts
 	#Range: 0 ~ 100000000
 	INSIGHT_TIME = 1200
+	#How long the wither lasts after stepping in black flame
+	#Range: 0 ~ 100000000
+	BLACK_FLAME_DEBUFF_TIME = 180
 
 [familiar]
 	#This is the cost of using the scroll
@@ -1016,6 +1019,9 @@
 	#Selective Displacement Mana Cost
 	#Range: 0 ~ 10000000
 	SELECTIVE_DISPLACEMENT_MANA_COST = 900
+	#Fallen Down Beam Mana Scaled Damage
+	#Range: 0.0 ~ 1.0E9
+	FALLEN_DOWN_BEAM_MANA_SCALED_DAMAGE = 0.0
 
 [kodoku]
 	#Base chance of setting target on fire with kodoku value 1
