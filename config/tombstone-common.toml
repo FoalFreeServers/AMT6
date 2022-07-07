@@ -47,6 +47,8 @@
 	nerf_ghostly_shape_open_chest = true
 	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
 	nerf_ghostly_shape_break_block = true
+	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
+	graves_bypass_griefing_rules = true
 
 #Allows to change the chance to drop some items
 [loot]
