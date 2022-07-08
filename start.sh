@@ -3,7 +3,7 @@
 
 # Change arguments here
 export MINECRAFTJAR=forge-1.16.5-36.2.35.jar
-export RAM=5G
+export RAM=8G
 export JAVA=/home/sweetie/bin/jdk8u332-b09/bin/java
 
 
@@ -32,12 +32,24 @@ ulimit -a
 $JAVA -Xmx$RAM \
 -Dmixin.debug.export=true \
 -Dmixin.debug.verbose=true \
--XX:+UnlockExperimentalVMOptions \
 -XX:+UseG1GC \
--XX:G1NewSizePercent=20 \
+-XX:+ParallelRefProcEnabled \
+-XX:MaxGCPauseMillis=200 \
+-XX:+UnlockExperimentalVMOptions \
+-XX:+DisableExplicitGC \
+-XX:+AlwaysPreTouch \
+-XX:G1NewSizePercent=30 \
+-XX:G1MaxNewSizePercent=40 \
+-XX:G1HeapRegionSize=8M \
 -XX:G1ReservePercent=20 \
--XX:MaxGCPauseMillis=50 \
--XX:G1HeapRegionSize=32M \
+-XX:G1HeapWastePercent=5 \
+-XX:G1MixedGCCountTarget=4 \
+-XX:InitiatingHeapOccupancyPercent=15 \
+-XX:G1MixedGCLiveThresholdPercent=90 \
+-XX:G1RSetUpdatingPauseTimePercent=5 \
+-XX:SurvivorRatio=32 \
+-XX:+PerfDisableSharedMem \
+-XX:MaxTenuringThreshold=1 \
 -jar $MINECRAFTJAR nogui
 
 rm world/minecolonies/*.zip
