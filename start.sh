@@ -3,7 +3,7 @@
 
 # Change arguments here
 export MINECRAFTJAR=forge-1.16.5-36.2.35.jar
-export RAM=12G
+export RAM=5G
 export JAVA=/home/sweetie/bin/jdk8u332-b09/bin/java
 
 
@@ -32,6 +32,12 @@ ulimit -a
 $JAVA -Xmx$RAM \
 -Dmixin.debug.export=true \
 -Dmixin.debug.verbose=true \
+-XX:+UnlockExperimentalVMOptions \
+-XX:+UseG1GC \
+-XX:G1NewSizePercent=20 \
+-XX:G1ReservePercent=20 \
+-XX:MaxGCPauseMillis=50 \
+-XX:G1HeapRegionSize=32M \
 -jar $MINECRAFTJAR nogui
 
 rm world/minecolonies/*.zip
