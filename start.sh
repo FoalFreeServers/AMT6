@@ -3,7 +3,7 @@
 
 # Change arguments here
 export MINECRAFTJAR=forge-1.16.5-36.2.35.jar
-export RAM=8G
+export RAM=12G
 export JAVA=/home/sweetie/bin/jdk8u332-b09/bin/java
 
 
@@ -29,22 +29,23 @@ do
 
 ulimit -a
 
-$JAVA -Xmx$RAM \
+nice -n -20 $JAVA -Xms$RAM -Xmx$RAM \
 -Dmixin.debug.export=true \
 -Dmixin.debug.verbose=true \
+-XX:+UseLargePagesInMetaspace \
 -XX:+UseG1GC \
 -XX:+ParallelRefProcEnabled \
 -XX:MaxGCPauseMillis=200 \
 -XX:+UnlockExperimentalVMOptions \
 -XX:+DisableExplicitGC \
 -XX:+AlwaysPreTouch \
--XX:G1NewSizePercent=30 \
--XX:G1MaxNewSizePercent=40 \
--XX:G1HeapRegionSize=8M \
--XX:G1ReservePercent=20 \
+-XX:G1NewSizePercent=40 \
+-XX:G1MaxNewSizePercent=50 \
+-XX:G1HeapRegionSize=16M \
+-XX:G1ReservePercent=15 \
 -XX:G1HeapWastePercent=5 \
 -XX:G1MixedGCCountTarget=4 \
--XX:InitiatingHeapOccupancyPercent=15 \
+-XX:InitiatingHeapOccupancyPercent=20 \
 -XX:G1MixedGCLiveThresholdPercent=90 \
 -XX:G1RSetUpdatingPauseTimePercent=5 \
 -XX:SurvivorRatio=32 \
