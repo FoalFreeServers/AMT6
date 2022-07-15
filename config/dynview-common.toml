@@ -13,7 +13,7 @@
 	logMessages = true
 	#The minimum chunk view distance allowed to use. Default: 4
 	#Range: 3 ~ 200
-	minChunkViewDist = 3
+	minChunkViewDist = 7
 
 ["Chunk slow unload settings"]
 	#Enable slow chunk unloading(~1minute) after load, helps with mods hot-loading chunks frequently. Default: true

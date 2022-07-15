@@ -29,7 +29,7 @@ do
 
 ulimit -a
 
-nice -n -20 $JAVA -Xms$RAM -Xmx$RAM \
+$JAVA -Xms$RAM -Xmx$RAM \
 -Dmixin.debug.export=true \
 -Dmixin.debug.verbose=true \
 -XX:+UseLargePagesInMetaspace \

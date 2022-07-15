@@ -19,7 +19,7 @@
 	chance_mob_on_grave_recovery = 0
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
-	pvp_stolen_xp = 30
+	pvp_stolen_xp = 0
 	#Knowledge of Death loss why dying [0..500|default:0]
 	#Range: 0 ~ 500
 	knowledge_loss = 0
