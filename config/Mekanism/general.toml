@@ -30,7 +30,7 @@
 	superheatingHeatTransfer = 1.6E7
 	#Displayed temperature unit in Mekanism GUIs.
 	#Allowed Values: K, C, R, F, STP
-	temperatureUnit = "K"
+	temperatureUnit = "C"
 	#Peak processing rate for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 	maxSolarNeutronActivatorRate = 64
 
@@ -124,7 +124,7 @@
 		silkMultiplier = 6
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
-		maxRadius = 32
+		maxRadius = 128
 		#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).
 		#Range: > 1
 		ticksPerMine = 80

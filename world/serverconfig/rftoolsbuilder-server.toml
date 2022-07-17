@@ -3,10 +3,10 @@
 [builder]
 	#Maximum RF storage that the builder can hold
 	#Range: > 0
-	builderMaxRF = 1000000
+	builderMaxRF = 4000000
 	#RF per tick that the builder can receive
 	#Range: > 0
-	builderRFPerTick = 20000
+	builderRFPerTick = 80000
 	#RF per block operation for the builder when used to build
 	#Range: > 0
 	builderRfPerOperation = 500
