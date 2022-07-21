@@ -62,7 +62,7 @@
 -rw-rw-r-- 1 sweetie sweetie  1.4M May 22 18:40 cofh_core-1.16.5-1.5.0.11.jar
 -rw-rw-r-- 1 sweetie sweetie  140K Mar 15 22:07 collective-1.16.5-4.25.jar
 -rw-rw-r-- 1 sweetie sweetie  222K Mar 15 22:07 comforts-forge-1.16.5-4.0.1.5.jar
--rw-rw-r-- 1 sweetie sweetie  5.8K Jul  9 22:52 CommandLogger-1.16.5-d2d7cef.jar
+-rw-rw-r-- 1 sweetie sweetie  7.0K Jul 21 04:42 CommandLogger-1.16.5-953d4d8.jar
 -rw-rw-r-- 1 sweetie sweetie  229K Jan 17  2022 CommonCapabilities-1.16.5-2.8.0.jar
 -rw-rw-r-- 1 sweetie sweetie  338K Jan 17  2022 compactmachines-4.0.0-beta.2.jar
 -rw-rw-r-- 1 sweetie sweetie  450K Jan 17  2022 Compressium-1.16.5-1.2.3.jar
