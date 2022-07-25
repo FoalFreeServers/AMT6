@@ -10,6 +10,881 @@
         0
       ],
       "learnedDrops": []
+    },
+    {
+      "mob": "minecraft:zombie",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:rotten_flesh"
+          },
+          "simulatedCount": [
+            660,
+            847,
+            916,
+            952
+          ],
+          "stack0": [
+            1,
+            330,
+            2,
+            330
+          ],
+          "stack1": [
+            1,
+            309,
+            2,
+            355,
+            3,
+            183
+          ],
+          "stack2": [
+            1,
+            257,
+            2,
+            328,
+            3,
+            254,
+            4,
+            77
+          ],
+          "stack3": [
+            1,
+            164,
+            2,
+            286,
+            3,
+            260,
+            4,
+            174,
+            5,
+            68
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:golden_leggings"
+          },
+          "simulatedCount": [
+            6,
+            9,
+            5,
+            7
+          ],
+          "stack0": [
+            1,
+            6
+          ],
+          "stack1": [
+            1,
+            9
+          ],
+          "stack2": [
+            1,
+            5
+          ],
+          "stack3": [
+            1,
+            7
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_shovel"
+          },
+          "simulatedCount": [
+            1,
+            5,
+            3,
+            7
+          ],
+          "stack0": [
+            1,
+            1
+          ],
+          "stack1": [
+            1,
+            5
+          ],
+          "stack2": [
+            1,
+            3
+          ],
+          "stack3": [
+            1,
+            7
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:golden_helmet"
+          },
+          "simulatedCount": [
+            3,
+            5,
+            7,
+            3
+          ],
+          "stack0": [
+            1,
+            3
+          ],
+          "stack1": [
+            1,
+            5
+          ],
+          "stack2": [
+            1,
+            7
+          ],
+          "stack3": [
+            1,
+            3
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            206,
+            186,
+            183,
+            196
+          ],
+          "stack0": [
+            1,
+            206
+          ],
+          "stack1": [
+            1,
+            186
+          ],
+          "stack2": [
+            1,
+            183
+          ],
+          "stack3": [
+            1,
+            196
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:earth_shard"
+          },
+          "simulatedCount": [
+            206,
+            247,
+            273,
+            333
+          ],
+          "stack0": [
+            1,
+            78,
+            2,
+            72,
+            3,
+            56
+          ],
+          "stack1": [
+            1,
+            84,
+            2,
+            84,
+            3,
+            79
+          ],
+          "stack2": [
+            1,
+            100,
+            2,
+            96,
+            3,
+            77
+          ],
+          "stack3": [
+            1,
+            106,
+            2,
+            108,
+            3,
+            119
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:carrot"
+          },
+          "simulatedCount": [
+            7,
+            11,
+            14,
+            23
+          ],
+          "stack0": [
+            1,
+            7
+          ],
+          "stack1": [
+            1,
+            11
+          ],
+          "stack2": [
+            1,
+            14
+          ],
+          "stack3": [
+            1,
+            23
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:zombie_heart"
+          },
+          "simulatedCount": [
+            81,
+            149,
+            201,
+            266
+          ],
+          "stack0": [
+            1,
+            81
+          ],
+          "stack1": [
+            1,
+            149
+          ],
+          "stack2": [
+            1,
+            201
+          ],
+          "stack3": [
+            1,
+            266
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:golden_chestplate"
+          },
+          "simulatedCount": [
+            5,
+            9,
+            6,
+            5
+          ],
+          "stack0": [
+            1,
+            5
+          ],
+          "stack1": [
+            1,
+            9
+          ],
+          "stack2": [
+            1,
+            6
+          ],
+          "stack3": [
+            1,
+            5
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:golden_boots"
+          },
+          "simulatedCount": [
+            3,
+            8,
+            5,
+            11
+          ],
+          "stack0": [
+            1,
+            3
+          ],
+          "stack1": [
+            1,
+            8
+          ],
+          "stack2": [
+            1,
+            5
+          ],
+          "stack3": [
+            1,
+            11
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:powerful_earth_shard"
+          },
+          "simulatedCount": [
+            21,
+            29,
+            25,
+            40
+          ],
+          "stack0": [
+            1,
+            21
+          ],
+          "stack1": [
+            1,
+            29
+          ],
+          "stack2": [
+            1,
+            25
+          ],
+          "stack3": [
+            1,
+            40
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:leather_chestplate"
+          },
+          "simulatedCount": [
+            2,
+            3,
+            7,
+            5
+          ],
+          "stack0": [
+            1,
+            2
+          ],
+          "stack1": [
+            1,
+            3
+          ],
+          "stack2": [
+            1,
+            7
+          ],
+          "stack3": [
+            1,
+            5
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:potato"
+          },
+          "simulatedCount": [
+            5,
+            5,
+            12,
+            20
+          ],
+          "stack0": [
+            1,
+            5
+          ],
+          "stack1": [
+            1,
+            5
+          ],
+          "stack2": [
+            1,
+            12
+          ],
+          "stack3": [
+            1,
+            20
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:leather_boots"
+          },
+          "simulatedCount": [
+            4,
+            3,
+            3,
+            6
+          ],
+          "stack0": [
+            1,
+            4
+          ],
+          "stack1": [
+            1,
+            3
+          ],
+          "stack2": [
+            1,
+            3
+          ],
+          "stack3": [
+            1,
+            6
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:leather_leggings"
+          },
+          "simulatedCount": [
+            2,
+            8,
+            7,
+            2
+          ],
+          "stack0": [
+            1,
+            2
+          ],
+          "stack1": [
+            1,
+            8
+          ],
+          "stack2": [
+            1,
+            7
+          ],
+          "stack3": [
+            1,
+            2
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:chainmail_boots"
+          },
+          "simulatedCount": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "stack0": [
+            1,
+            2
+          ],
+          "stack1": [
+            1,
+            1
+          ],
+          "stack2": [
+            1,
+            2
+          ],
+          "stack3": [
+            1,
+            1
+          ]
+        },
+        {
+          "drop": {
+            "item": "forbidden_arcanus:zombie_arm"
+          },
+          "simulatedCount": [
+            2,
+            0,
+            3,
+            2
+          ],
+          "stack0": [
+            1,
+            2
+          ],
+          "stack1": [],
+          "stack2": [
+            1,
+            3
+          ],
+          "stack3": [
+            1,
+            2
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:chainmail_chestplate"
+          },
+          "simulatedCount": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "stack0": [
+            1,
+            1
+          ],
+          "stack1": [
+            1,
+            3
+          ],
+          "stack2": [
+            1,
+            2
+          ],
+          "stack3": [
+            1,
+            1
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_ingot"
+          },
+          "simulatedCount": [
+            6,
+            11,
+            20,
+            13
+          ],
+          "stack0": [
+            1,
+            6
+          ],
+          "stack1": [
+            1,
+            11
+          ],
+          "stack2": [
+            1,
+            20
+          ],
+          "stack3": [
+            1,
+            13
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:chainmail_leggings"
+          },
+          "simulatedCount": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "stack0": [
+            1,
+            3
+          ],
+          "stack1": [
+            1,
+            1
+          ],
+          "stack2": [
+            1,
+            2
+          ],
+          "stack3": [
+            1,
+            1
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:chainmail_helmet"
+          },
+          "simulatedCount": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "stack0": [],
+          "stack1": [
+            1,
+            1
+          ],
+          "stack2": [
+            1,
+            2
+          ],
+          "stack3": [
+            1,
+            2
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_sword"
+          },
+          "simulatedCount": [
+            0,
+            7,
+            4,
+            3
+          ],
+          "stack0": [],
+          "stack1": [
+            1,
+            7
+          ],
+          "stack2": [
+            1,
+            4
+          ],
+          "stack3": [
+            1,
+            3
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:leather_helmet"
+          },
+          "simulatedCount": [
+            2,
+            1,
+            4,
+            5
+          ],
+          "stack0": [
+            1,
+            2
+          ],
+          "stack1": [
+            1,
+            1
+          ],
+          "stack2": [
+            1,
+            4
+          ],
+          "stack3": [
+            1,
+            5
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_boots"
+          },
+          "simulatedCount": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "stack0": [],
+          "stack1": [],
+          "stack2": [
+            1,
+            1
+          ],
+          "stack3": [
+            1,
+            1
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_leggings"
+          },
+          "simulatedCount": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "stack0": [],
+          "stack1": [],
+          "stack2": [],
+          "stack3": [
+            1,
+            1
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:iron_helmet"
+          },
+          "simulatedCount": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "stack0": [],
+          "stack1": [],
+          "stack2": [],
+          "stack3": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:hoglin",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:porkchop"
+          },
+          "simulatedCount": [
+            807,
+            818,
+            808,
+            801
+          ],
+          "stack0": [
+            2,
+            255,
+            3,
+            281,
+            4,
+            271
+          ],
+          "stack1": [
+            2,
+            145,
+            3,
+            275,
+            4,
+            287,
+            5,
+            111
+          ],
+          "stack2": [
+            2,
+            69,
+            3,
+            201,
+            4,
+            265,
+            5,
+            215,
+            6,
+            58
+          ],
+          "stack3": [
+            2,
+            47,
+            3,
+            145,
+            4,
+            226,
+            5,
+            215,
+            6,
+            122,
+            7,
+            46
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:leather"
+          },
+          "simulatedCount": [
+            402,
+            629,
+            715,
+            738
+          ],
+          "stack0": [
+            1,
+            402
+          ],
+          "stack1": [
+            1,
+            413,
+            2,
+            216
+          ],
+          "stack2": [
+            1,
+            307,
+            2,
+            298,
+            3,
+            110
+          ],
+          "stack3": [
+            1,
+            209,
+            2,
+            269,
+            3,
+            190,
+            4,
+            70
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            225,
+            221,
+            197,
+            212
+          ],
+          "stack0": [
+            1,
+            225
+          ],
+          "stack1": [
+            1,
+            221
+          ],
+          "stack2": [
+            1,
+            197
+          ],
+          "stack3": [
+            1,
+            212
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:mob_charm_fragment"
+          },
+          "simulatedCount": [
+            13,
+            31,
+            36,
+            42
+          ],
+          "stack0": [
+            1,
+            13
+          ],
+          "stack1": [
+            1,
+            31
+          ],
+          "stack2": [
+            1,
+            36
+          ],
+          "stack3": [
+            1,
+            42
+          ]
+        }
+      ]
     }
   ]
 }
