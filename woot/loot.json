@@ -2,6 +2,98 @@
   "version": 1,
   "simulatedMobs": [
     {
+      "mob": "minecraft:wither",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:nether_star"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            1,
+            1000
+          ],
+          "stack1": [
+            1,
+            1000
+          ],
+          "stack2": [
+            1,
+            1000
+          ],
+          "stack3": [
+            1,
+            1000
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            200,
+            192,
+            199,
+            194
+          ],
+          "stack0": [
+            1,
+            200
+          ],
+          "stack1": [
+            1,
+            192
+          ],
+          "stack2": [
+            1,
+            199
+          ],
+          "stack3": [
+            1,
+            194
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagradditions:withering_soul"
+          },
+          "simulatedCount": [
+            335,
+            358,
+            330,
+            360
+          ],
+          "stack0": [
+            1,
+            335
+          ],
+          "stack1": [
+            1,
+            358
+          ],
+          "stack2": [
+            1,
+            330
+          ],
+          "stack3": [
+            1,
+            360
+          ]
+        }
+      ]
+    },
+    {
       "mob": "minecraft:sheep",
       "simulatedKills": [
         0,
@@ -32,27 +124,19 @@
           ],
           "stack0": [
             1,
-            330,
-            2,
             330
           ],
           "stack1": [
             1,
             309,
             2,
-            355,
-            3,
-            183
+            355
           ],
           "stack2": [
             1,
             257,
             2,
-            328,
-            3,
-            254,
-            4,
-            77
+            328
           ],
           "stack3": [
             1,
@@ -60,11 +144,7 @@
             2,
             286,
             3,
-            260,
-            4,
-            174,
-            5,
-            68
+            260
           ]
         },
         {
@@ -189,33 +269,25 @@
             1,
             78,
             2,
-            72,
-            3,
-            56
+            72
           ],
           "stack1": [
             1,
             84,
             2,
-            84,
-            3,
-            79
+            84
           ],
           "stack2": [
             1,
             100,
             2,
-            96,
-            3,
-            77
+            96
           ],
           "stack3": [
             1,
             106,
             2,
-            108,
-            3,
-            119
+            108
           ]
         },
         {
@@ -750,19 +822,13 @@
             2,
             255,
             3,
-            281,
-            4,
-            271
+            281
           ],
           "stack1": [
             2,
             145,
             3,
-            275,
-            4,
-            287,
-            5,
-            111
+            275
           ],
           "stack2": [
             2,
@@ -770,11 +836,7 @@
             3,
             201,
             4,
-            265,
-            5,
-            215,
-            6,
-            58
+            265
           ],
           "stack3": [
             2,
@@ -782,13 +844,7 @@
             3,
             145,
             4,
-            226,
-            5,
-            215,
-            6,
-            122,
-            7,
-            46
+            226
           ]
         },
         {
@@ -807,27 +863,19 @@
           ],
           "stack1": [
             1,
-            413,
-            2,
-            216
+            413
           ],
           "stack2": [
             1,
             307,
             2,
-            298,
-            3,
-            110
+            298
           ],
           "stack3": [
             1,
             209,
             2,
-            269,
-            3,
-            190,
-            4,
-            70
+            269
           ]
         },
         {
@@ -882,6 +930,633 @@
           "stack3": [
             1,
             42
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:elder_guardian",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:prismarine_shard"
+          },
+          "simulatedCount": [
+            674,
+            816,
+            914,
+            942
+          ],
+          "stack0": [
+            1,
+            351,
+            2,
+            323
+          ],
+          "stack1": [
+            1,
+            340,
+            2,
+            327,
+            3,
+            149
+          ],
+          "stack2": [
+            1,
+            227,
+            2,
+            323,
+            3,
+            268,
+            4,
+            96
+          ],
+          "stack3": [
+            1,
+            171,
+            2,
+            268,
+            3,
+            273,
+            4,
+            176,
+            5,
+            54
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:cod"
+          },
+          "simulatedCount": [
+            508,
+            532,
+            534,
+            536
+          ],
+          "stack0": [
+            1,
+            508
+          ],
+          "stack1": [
+            1,
+            265,
+            2,
+            267
+          ],
+          "stack2": [
+            1,
+            163,
+            2,
+            239,
+            3,
+            132
+          ],
+          "stack3": [
+            1,
+            120,
+            2,
+            178,
+            3,
+            161,
+            4,
+            77
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:wet_sponge"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            1,
+            1000
+          ],
+          "stack1": [
+            1,
+            1000
+          ],
+          "stack2": [
+            1,
+            1000
+          ],
+          "stack3": [
+            1,
+            1000
+          ]
+        },
+        {
+          "drop": {
+            "item": "upgrade_aquatic:elder_eye"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            1,
+            1000
+          ],
+          "stack1": [
+            1,
+            1000
+          ],
+          "stack2": [
+            1,
+            1000
+          ],
+          "stack3": [
+            1,
+            1000
+          ]
+        },
+        {
+          "drop": {
+            "item": "upgrade_aquatic:elder_guardian_spine"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            1,
+            497,
+            2,
+            503
+          ],
+          "stack1": [
+            1,
+            341,
+            2,
+            329,
+            3,
+            330
+          ],
+          "stack2": [
+            2,
+            323,
+            4,
+            346,
+            6,
+            331
+          ],
+          "stack3": [
+            3,
+            301,
+            6,
+            353,
+            9,
+            346
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:prismarine_crystals"
+          },
+          "simulatedCount": [
+            345,
+            318,
+            328,
+            348
+          ],
+          "stack0": [
+            1,
+            345
+          ],
+          "stack1": [
+            1,
+            158,
+            2,
+            160
+          ],
+          "stack2": [
+            1,
+            81,
+            2,
+            166,
+            3,
+            81
+          ],
+          "stack3": [
+            1,
+            76,
+            2,
+            111,
+            3,
+            108,
+            4,
+            53
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:water_shard"
+          },
+          "simulatedCount": [
+            218,
+            259,
+            278,
+            284
+          ],
+          "stack0": [
+            1,
+            73,
+            2,
+            57,
+            3,
+            88
+          ],
+          "stack1": [
+            1,
+            79,
+            2,
+            88,
+            3,
+            92
+          ],
+          "stack2": [
+            1,
+            105,
+            2,
+            82,
+            3,
+            91
+          ],
+          "stack3": [
+            1,
+            85,
+            2,
+            97,
+            3,
+            102
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            207,
+            216,
+            200,
+            187
+          ],
+          "stack0": [
+            1,
+            207
+          ],
+          "stack1": [
+            1,
+            216
+          ],
+          "stack2": [
+            1,
+            200
+          ],
+          "stack3": [
+            1,
+            187
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:mob_charm_fragment"
+          },
+          "simulatedCount": [
+            19,
+            26,
+            37,
+            35
+          ],
+          "stack0": [
+            1,
+            19
+          ],
+          "stack1": [
+            1,
+            26
+          ],
+          "stack2": [
+            1,
+            37
+          ],
+          "stack3": [
+            1,
+            35
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:pufferfish"
+          },
+          "simulatedCount": [
+            6,
+            8,
+            9,
+            6
+          ],
+          "stack0": [
+            1,
+            6
+          ],
+          "stack1": [
+            1,
+            8
+          ],
+          "stack2": [
+            1,
+            9
+          ],
+          "stack3": [
+            1,
+            6
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:powerful_water_shard"
+          },
+          "simulatedCount": [
+            24,
+            22,
+            25,
+            42
+          ],
+          "stack0": [
+            1,
+            24
+          ],
+          "stack1": [
+            1,
+            22
+          ],
+          "stack2": [
+            1,
+            25
+          ],
+          "stack3": [
+            1,
+            42
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:salmon"
+          },
+          "simulatedCount": [
+            4,
+            7,
+            14,
+            12
+          ],
+          "stack0": [
+            1,
+            4
+          ],
+          "stack1": [
+            1,
+            7
+          ],
+          "stack2": [
+            1,
+            14
+          ],
+          "stack3": [
+            1,
+            12
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:tropical_fish"
+          },
+          "simulatedCount": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "stack0": [
+            1,
+            1
+          ],
+          "stack1": [
+            1,
+            1
+          ],
+          "stack2": [],
+          "stack3": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:ghast",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:gunpowder"
+          },
+          "simulatedCount": [
+            674,
+            853,
+            930,
+            943
+          ],
+          "stack0": [
+            1,
+            353,
+            2,
+            321
+          ],
+          "stack1": [
+            1,
+            335,
+            2,
+            343,
+            3,
+            175
+          ],
+          "stack2": [
+            1,
+            266,
+            2,
+            327,
+            3,
+            255,
+            4,
+            82
+          ],
+          "stack3": [
+            1,
+            176,
+            2,
+            268,
+            3,
+            274,
+            4,
+            166,
+            5,
+            59
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:ghast_tear"
+          },
+          "simulatedCount": [
+            513,
+            732,
+            879,
+            920
+          ],
+          "stack0": [
+            1,
+            513
+          ],
+          "stack1": [
+            1,
+            495,
+            2,
+            237
+          ],
+          "stack2": [
+            1,
+            362,
+            2,
+            387,
+            3,
+            130
+          ],
+          "stack3": [
+            1,
+            229,
+            2,
+            333,
+            3,
+            267,
+            4,
+            91
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:fire_shard"
+          },
+          "simulatedCount": [
+            234,
+            252,
+            289,
+            304
+          ],
+          "stack0": [
+            1,
+            72,
+            2,
+            85,
+            3,
+            77
+          ],
+          "stack1": [
+            1,
+            93,
+            2,
+            75,
+            3,
+            84
+          ],
+          "stack2": [
+            1,
+            107,
+            2,
+            83,
+            3,
+            99
+          ],
+          "stack3": [
+            1,
+            88,
+            2,
+            100,
+            3,
+            116
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:catalyzing_gland"
+          },
+          "simulatedCount": [
+            157,
+            224,
+            390,
+            459
+          ],
+          "stack0": [
+            1,
+            157
+          ],
+          "stack1": [
+            1,
+            224
+          ],
+          "stack2": [
+            1,
+            390
+          ],
+          "stack3": [
+            1,
+            459
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:powerful_fire_shard"
+          },
+          "simulatedCount": [
+            19,
+            32,
+            39,
+            24
+          ],
+          "stack0": [
+            1,
+            19
+          ],
+          "stack1": [
+            1,
+            32
+          ],
+          "stack2": [
+            1,
+            39
+          ],
+          "stack3": [
+            1,
+            24
           ]
         }
       ]
