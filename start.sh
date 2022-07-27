@@ -41,7 +41,7 @@ $JAVA -Xms$RAM -Xmx$RAM \
 -XX:+AlwaysPreTouch \
 -XX:G1NewSizePercent=40 \
 -XX:G1MaxNewSizePercent=50 \
--XX:G1HeapRegionSize=16M \
+-XX:G1HeapRegionSize=32M \
 -XX:G1ReservePercent=15 \
 -XX:G1HeapWastePercent=5 \
 -XX:G1MixedGCCountTarget=4 \
