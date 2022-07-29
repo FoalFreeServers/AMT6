@@ -784,6 +784,308 @@
       ]
     },
     {
+      "mob": "minecraft:wither_skeleton",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "tconstruct:necrotic_bone"
+          },
+          "simulatedCount": [
+            648,
+            859,
+            920,
+            945
+          ],
+          "stack0": [
+            1,
+            335,
+            2,
+            313
+          ],
+          "stack1": [
+            1,
+            324,
+            2,
+            369,
+            3,
+            166
+          ],
+          "stack2": [
+            1,
+            249,
+            2,
+            345,
+            3,
+            242,
+            4,
+            84
+          ],
+          "stack3": [
+            1,
+            165,
+            2,
+            289,
+            3,
+            290,
+            4,
+            158,
+            5,
+            43
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:earth_shard"
+          },
+          "simulatedCount": [
+            205,
+            239,
+            289,
+            317
+          ],
+          "stack0": [
+            1,
+            64,
+            2,
+            76,
+            3,
+            65
+          ],
+          "stack1": [
+            1,
+            90,
+            2,
+            77,
+            3,
+            72
+          ],
+          "stack2": [
+            1,
+            84,
+            2,
+            90,
+            3,
+            115
+          ],
+          "stack3": [
+            1,
+            103,
+            2,
+            111,
+            3,
+            103
+          ]
+        },
+        {
+          "drop": {
+            "item": "wstweaks:fragment"
+          },
+          "simulatedCount": [
+            973,
+            966,
+            961,
+            953
+          ],
+          "stack0": [
+            1,
+            973
+          ],
+          "stack1": [
+            1,
+            966
+          ],
+          "stack2": [
+            1,
+            961
+          ],
+          "stack3": [
+            1,
+            953
+          ]
+        },
+        {
+          "drop": {
+            "item": "iceandfire:witherbone"
+          },
+          "simulatedCount": [
+            501,
+            508,
+            503,
+            505
+          ],
+          "stack0": [
+            1,
+            501
+          ],
+          "stack1": [
+            1,
+            508
+          ],
+          "stack2": [
+            1,
+            503
+          ],
+          "stack3": [
+            1,
+            505
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:coal"
+          },
+          "simulatedCount": [
+            323,
+            494,
+            705,
+            786
+          ],
+          "stack0": [
+            1,
+            323
+          ],
+          "stack1": [
+            1,
+            323,
+            2,
+            171
+          ],
+          "stack2": [
+            1,
+            366,
+            2,
+            254,
+            3,
+            85
+          ],
+          "stack3": [
+            1,
+            282,
+            2,
+            288,
+            3,
+            155,
+            4,
+            61
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:withered_rib"
+          },
+          "simulatedCount": [
+            98,
+            141,
+            230,
+            242
+          ],
+          "stack0": [
+            1,
+            98
+          ],
+          "stack1": [
+            1,
+            141
+          ],
+          "stack2": [
+            1,
+            230
+          ],
+          "stack3": [
+            1,
+            242
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            209,
+            207,
+            200,
+            211
+          ],
+          "stack0": [
+            1,
+            209
+          ],
+          "stack1": [
+            1,
+            207
+          ],
+          "stack2": [
+            1,
+            200
+          ],
+          "stack3": [
+            1,
+            211
+          ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:wither_skeleton_skull"
+          },
+          "simulatedCount": [
+            27,
+            34,
+            39,
+            47
+          ],
+          "stack0": [
+            1,
+            27
+          ],
+          "stack1": [
+            1,
+            34
+          ],
+          "stack2": [
+            1,
+            39
+          ],
+          "stack3": [
+            1,
+            47
+          ]
+        },
+        {
+          "drop": {
+            "item": "elementalcraft:powerful_earth_shard"
+          },
+          "simulatedCount": [
+            36,
+            27,
+            39,
+            23
+          ],
+          "stack0": [
+            1,
+            36
+          ],
+          "stack1": [
+            1,
+            27
+          ],
+          "stack2": [
+            1,
+            39
+          ],
+          "stack3": [
+            1,
+            23
+          ]
+        }
+      ]
+    },
+    {
       "mob": "minecraft:hoglin",
       "simulatedKills": [
         1000,
