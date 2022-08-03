@@ -1,6 +1,6 @@
 === FTB Ranks ===
 
-Last README file update: Fri Jun 10 02:47:01 EDT 2022
+Last README file update: Tue Aug 02 16:57:38 EDT 2022
 Wiki: https://www.notion.so/feedthebeast/FTB-Mod-Documentation-da2e359bad2449459d58d787edda3168
 To refresh this file, run /ftbranks refresh_readme
 
@@ -1778,6 +1778,15 @@ command.lootr.openers
 command.lootr.openers.location
 command.lootr.shulker
 command.lootr.shulker.table
+command.lore
+command.lore.clear
+command.lore.clear.lore
+command.lore.clear.name
+command.lore.set
+command.lore.set.lore
+command.lore.set.lore.{nbt}
+command.lore.set.name
+command.lore.set.name.{nbt}
 command.lostcities
 command.lostcities.debug
 command.lostcities.map

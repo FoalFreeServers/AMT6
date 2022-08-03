@@ -7,11 +7,13 @@
 		ftbchunks.max_claimed: 256
 		ftbchunks.max_force_loaded: 128
 		command: false
-		command.forge: true
+		command.forge.tps: true
+		command.forge.tps.dim: true
 		command.ftbteams: true
 		command.ftbchunks.admin: false
 		command.ftbchunks: true
 		command.help: true
+		command.spark.tps: true
 	}
 	admin: {
 		name: "Admin"
