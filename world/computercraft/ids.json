@@ -1,4 +1,8 @@
 {
   "peripheral.fissionReactorLogicAdapter": 1,
-  "computer": 0
+  "computer": 3,
+  "peripheral.fissionReactorPort": 1,
+  "peripheral.computer": 2,
+  "peripheral.mekanism:boiler_casing": 0,
+  "peripheral.monitor": 0
 }
