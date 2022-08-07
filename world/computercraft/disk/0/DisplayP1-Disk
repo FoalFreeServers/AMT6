@@ -75,9 +75,7 @@ while R1.isFormed() do
 term.clear()
 term.setCursorPos(1,1)
     
-term.setTextColor(colors.orange)
-print("Monitoring Reactor... "..RFunction) 
-term.setTextColor(colors.white)    
+print("Monitoring Reactor... "..RFunction)     
 print("-----------------------------------------")
 term.write("Status      : ") print(ROnOff)
 print("Temperature : "..math.floor(KtC(Temp)).."C")
