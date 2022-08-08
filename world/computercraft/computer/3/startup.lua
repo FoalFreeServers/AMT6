@@ -1,0 +1,3 @@
+shell.run("DisplayP1")
+
+

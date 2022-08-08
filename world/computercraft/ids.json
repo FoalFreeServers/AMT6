@@ -6,5 +6,6 @@
   "peripheral.mekanism:boiler_casing": 0,
   "peripheral.monitor": 0,
   "disk": 0,
-  "peripheral.turbineValve": 0
+  "peripheral.turbineValve": 0,
+  "peripheral.drive": 0
 }

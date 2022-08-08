@@ -4,7 +4,10 @@ T1 = peripheral.find("turbineValve")
 assert(R1,"Reactor Logic Missing")    
 assert(R2,"Reactor Port Missing")
 assert(R1.isFormed(),"Reactor Structure Incomplete")
-    
+ 
+local monitor = peripheral.wrap("top") 
+term.redirect(monitor)      
+                       
 function KtC(TempinK) 
     return TempinK - 273.15
 end
@@ -77,19 +80,31 @@ term.setCursorPos(1,1)
     
 term.setTextColor(colors.orange)
 print("Monitoring Reactor... "..RFunction) 
-term.setTextColor(colors.white)    
+term.setTextColor(colors.lightGray)    
 print("-----------------------------------------")
+term.setTextColor(colors.white)
 term.write("Status      : ") print(ROnOff)
 print("Temperature : "..math.floor(KtC(Temp)).."C")
 print("Fuel Level  : "..math.floor(Fuel*100).."%")
 print("Burn Rate   : "..Burn.."mB/t")
 print("Processing  : "..ActBurn.."/"..MaxBurn.."mB/t")
+term.setTextColor(colors.lightGray)
 print("-----------------------------------------")
+term.setTextColor(colors.white)
 print("Hot Coolant in Vessel    : "..(math.floor(HotSod*100*22.5)*0.01).."kB")
 print("Coolant Supply in Vessel : "..(math.floor(CoolSod*100*22.5)*0.01).."/22.5kB")
+term.setTextColor(colors.lightGray)
 print("-----------------------------------------")
+term.setTextColor(colors.white)
 term.setCursorPos(1,13)
 
 print("Turbine Production Rate  : "..(math.floor(Production*100)*0.01).."kFE/t")
+
+term.setCursorPos(1,15)
+term.setTextColor(colors.lightGray)
+print("-----------------------------------------")
+term.setTextColor(colors.white)
+
 sleep(0.25)
+
 end
