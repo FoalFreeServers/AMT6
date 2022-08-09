@@ -17,9 +17,11 @@ minecraft.pid
 
 # World data
 /patchouli_books/
+/woot/
 /world/advancements/
 /world/astralsorcery/
 /world/camera_images/
+/world/computercraft/
 /world/data/
 /world/datapacks/
 /world/deaths/
